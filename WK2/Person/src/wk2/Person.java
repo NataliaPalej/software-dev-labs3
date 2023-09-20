@@ -61,4 +61,10 @@ public class Person {
 	public void setPhoneNo(long phoneNo) {
 		this.phoneNo = phoneNo;
 	}
+	
+	public void printDetails() {
+		System.out.println("Name: " + name);
+		System.out.println("Address: " + address);
+		System.out.println("Phone No: " + phoneNo);
+	}
 }
