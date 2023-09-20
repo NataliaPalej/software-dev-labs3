@@ -6,7 +6,7 @@ public class Person {
 	private String name, address;
 	private long phoneNo;
 	
-	// Main constructor
+	// Different types of constructors
 	public Person() {
 		this.name = null;
 		this.address = null;
@@ -34,6 +34,31 @@ public class Person {
 	public Person(String name, String address, long phoneNo) {
 		this.name = name;
 		this.address = address;
+		this.phoneNo = phoneNo;
+	}
+
+	// Getters and Setters for all variables
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public long getPhoneNo() {
+		return phoneNo;
+	}
+
+	public void setPhoneNo(long phoneNo) {
 		this.phoneNo = phoneNo;
 	}
 }
