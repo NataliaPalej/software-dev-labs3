@@ -23,7 +23,10 @@ public class PersonTest extends Person {
 		System.out.println(p1.getAddress());
 		p4.setName("Paul");
 		System.out.println(p4.getName());
-
+		
+		System.out.println();
+		
+		p1.printDetails();
+		p4.printDetails();
 	}
-
 }
