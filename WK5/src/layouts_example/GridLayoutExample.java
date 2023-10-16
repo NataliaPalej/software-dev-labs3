@@ -34,6 +34,8 @@ public class GridLayoutExample extends JFrame {
 		setSize(400, 400);
 		setVisible(true);
 		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 	}
 	
 	public static void main(String[] args) {
