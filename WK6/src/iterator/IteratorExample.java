@@ -16,7 +16,7 @@ public class IteratorExample {
 		list.add("A");
 		list.add("Y");
 		
-		System.out.println("Original content of list: " + list);
+		System.out.println("Original list: " + list);
 		
 		/**
 		 * Loop through the list using ListIterator 
@@ -49,6 +49,8 @@ public class IteratorExample {
 			Object updatedList = printUpdatedList.next();
 			System.out.println("Element: " + updatedList);
 		}
+		
+		System.out.println("New list: " + list);
 		
 	}
 		
