@@ -10,7 +10,6 @@ public class FactoryTester {
 		System.out.println();
 		
 		Employee employee2 = EmployeeFactory.getEmployee(48, 35.0);
-		System.out.println("Hourly rate:\t" + "€"+ employee2.getHourlyRate());
-				
+		System.out.println("Hourly rate:\t" + "€"+ employee2.getHourlyRate());	
 	}
 }
